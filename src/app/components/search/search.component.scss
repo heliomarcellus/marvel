@@ -1,0 +1,76 @@
+.search-movies {
+  width: 210px;
+  margin: 35px 0 0 20px;
+  padding: 0 10px 0 10px;
+  border-radius: 10px;
+  background-color: #9fb1b5;
+
+  .mat-form-field {
+    font-weight: bold;
+    color: #000000;
+  }
+}
+.mat-card {
+  color: #ffffff;
+  background-color: #000000;
+
+  .mat-card-title {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 8px;
+    background-color: green;
+  }
+  .card-marvel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 8px;
+    background-color: #c2c2c2;
+
+    .card-marvel-item {
+      max-width: 20%;
+      margin: 20px;
+      padding: 10px;
+      position: relative;
+      border: solid 1px;
+      border-radius: 10px;
+      background-size: cover;
+      color: #ffffff;
+      font-size: 14px;
+      background-color: #000000;
+
+      .icon-card {
+        background: url("./../../../assets/images/icon-avenger.png") no-repeat 0
+          0;
+        background-size: cover;
+      }
+
+      img {
+        max-width: 90%;
+        margin: 0 auto 20px auto;
+        border-radius: 10px;
+      }
+    }
+
+    .no-results {
+      padding: 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .search-movies {
+    width: 210px;
+    margin: 50px 0 0 20px;
+  }
+
+  .card-marvel-item {
+    min-width: 85%;
+  }
+}
