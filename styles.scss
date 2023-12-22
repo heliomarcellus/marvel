@@ -1,0 +1,21 @@
+html {
+  font-family: CoHeadline;
+  list-style-type: none;
+  font-family: "Roboto";
+}
+
+body {
+  min-width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background: url("./assets/images/bg-header.jpg") no-repeat 0 0;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-size: auto;
+  }
+}
